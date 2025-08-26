@@ -10,7 +10,8 @@ export const Projects = () => {
 
                         <div className = "p-6 rounded-xl border border-[var(--text-primary)]/50 hover:-translate-y-1 hover:border-[var(--accent-primary)] hover:shadow-[0_2px_8px_var(--accent-primary)/20] transition-all">
                             <h3 className = "text-xl font-semibold mb-2">Portfolio Website</h3>
-                            <p className = "text-[var(--text-secondary)] mb-4">You're currently viewing my portfolio website. I designed and built it to develop my frontend skills. It is an extension of my resume, further highlighting my skills, experience, education, and projects.</p>
+                            <p className = "text-[var(--text-secondary)] mb-4">
+                                Built this website to practice my frontend skills and to have a personal website to showcase my skills, experience, education, and projects.</p>
                             <div className = "flex flex-wrap gap-2 mb-4">
                             {["JavaScript", "HTML", "CSS", "React", "Vite", "Tailwind CSS"].map((tech, key) => (
                                 <span key = {key} className = "bg-[var(--accent-primary)]/10 text-[var(--accent-primary)] py-1 px-3 rounded-full text-sm hover:bg-[var(--accent-primary)]/20 hover:shadow-[0_2px_8px_var(--accent-primary)/20] transition">{tech}</span>
@@ -33,11 +34,7 @@ export const Projects = () => {
                             <div className = "flex justify-between items-center">
                                 <a href="https://github.com/spmchugh/Discord-Bot" className="text-center bg-[var(--accent-primary)] text-[var(--text-button)] py-3 px-6 rounded font-semibold transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_var(--accent-primary)]/40" target="_blank" rel="noopener noreferrer">View Project &gt;</a>
                             </div>
-                            
                         </div>
-
-                        
-
                     </div>
                 </div>
             </ScrollReveal>
